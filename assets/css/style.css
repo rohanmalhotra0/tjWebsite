@@ -854,9 +854,6 @@ header ul li a.active {
   font-size: 25px;
   text-align: center;
   font-weight: 550;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .experience-roundedimg {
