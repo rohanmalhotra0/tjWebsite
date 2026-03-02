@@ -5,15 +5,15 @@
 //     let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 //     let scrollValue = Math.round( pos * 100 / calcHeight);
 
-//     scrollProgress.style.background = `conic-gradient(#008fff ${scrollValue}%, rgba(255, 255, 255, 0.2) ${scrollValue}%)`;
+//     scrollProgress.style.background = `conic-gradient(#008fff ${scrollValue}%,  rgba(255,  255,  255,  0.2) ${scrollValue}%)`;
 //     progressValue.textContent = `${scrollValue}%`;
 // }
 
 // window.onscroll = scrollPercentage;
 // window.onload = scrollPercentage;
 
-// contactBtn.addEventListener('click',()=>{
-//     window.scrollTo(0,document.body.scrollHeight);
+// contactBtn.addEventListener('click', ()=>{
+//     window.scrollTo(0, document.body.scrollHeight);
 // })
 // Navbar ScrollSpy
 let sections= document.querySelectorAll('.page-scroll');
@@ -21,7 +21,7 @@ let navLinks= document.querySelectorAll('header ul li a');
 let temp = sections[sections.length-1];
 
 sections.forEach(section=>{
-    section.addEventListener('click',()=>{
+    section.addEventListener('click', ()=>{
         let id= section.getAttribute('id');
             navLinks.forEach(links=>{
                 links.classList.remove('active');

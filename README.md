@@ -8,7 +8,7 @@
 
 
 <h2 align="center">
-Made with Pure HTML, CSS and JS<br>
+Made with Pure HTML,  CSS and JS<br>
 Inspired by <a href="https://github.com/saadpasta/developerFolio/">developerFolio</a>
 </h2>
 
@@ -68,7 +68,7 @@ Just change ```username``` and ```repository``` to yours and you are good to go!
 
 ## 🤝 Contributing
 
-Your awesome contribution will make this project better, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AmreshSinha/glassFolio/issues).
+Your awesome contribution will make this project better,  issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AmreshSinha/glassFolio/issues).
 
 
 ## 📝 License
